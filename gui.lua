@@ -2,6 +2,8 @@ function getThisFunction()
     return debug.getinfo(2, "f").func
 end
 
+-- teste
+
 function createLobbyGui(missionName)
     local gui = {}
     gui.window = guiCreateWindow(0.25, 0.25, 0.5, 0.5, " ", true)
